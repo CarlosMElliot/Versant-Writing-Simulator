@@ -226,7 +226,7 @@ ${opinionBox.value.trim() || '(left blank)'}
 
   const subject = `Writing Test Results — ${state.name} — ${state.passage.title}`;
   const emailBtn = document.getElementById('emailBtn');
-  const gmailComposeUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent('ercerc.academianic@gmail.com')}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyText)}`;
+  const gmailComposeUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent('erc.academianic@gmail.com')}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyText)}`;
   emailBtn.href = gmailComposeUrl;
   emailBtn.target = '_blank';
   emailBtn.rel = 'noopener noreferrer';
